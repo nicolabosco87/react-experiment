@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 3000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "webpack-merge": "^0.13.0",
+    "webpack-super-dev-server": "^1.2.0"
   }
 }
